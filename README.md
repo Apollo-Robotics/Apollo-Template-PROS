@@ -15,8 +15,8 @@ A custom template based on the PROS (Purdue Robotics Operating System) meant to 
 3. In the PROS CLI apply the template using the following commands:
 
 ```bash
-prosv5 c fetch Apollo@x.x.x.zip
-prosv5 c apply Apollo
+prosv5 c fetch Apollo-Template@x.x.x.zip
+prosv5 c apply Apollo-Template
 ```
 
 &emsp;&emsp;(`x.x.x` is the version of the downloaded library that is being installed)
@@ -24,8 +24,8 @@ prosv5 c apply Apollo
 &emsp;&emsp;Example:
 
 ```bash
-prosv5 c fetch Apollo@0.1.0.zip
-prosv5 c apply Apollo
+prosv5 c fetch Apollo-Template@0.1.0.zip
+prosv5 c apply Apollo-Template
 ```
 
 4. Once the commands have been executed and the program installed, add `#include "apollo/api.hpp"` anywhere in `main.h`
