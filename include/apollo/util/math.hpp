@@ -28,4 +28,4 @@ constexpr double clipValues(double inputValue, double maxiumValue,
   }
   return inputValue;
 }
-}  // namespace apollo
+}  // namespace apollo::math
