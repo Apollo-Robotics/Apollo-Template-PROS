@@ -2,7 +2,7 @@
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
-[![Build](https://github.com/Apollo-Robotics/Apollo-Template/actions/workflows/main.yml/badge.svg)](https://github.com/Apollo-Robotics/Apollo-Template/blob/main/.github/workflows/main.yml)
+[![Build](https://github.com/Apollo-Robotics/Apollo-Template-PROS/actions/workflows/main.yml/badge.svg)](https://github.com/Apollo-Robotics/Apollo-Template-PROS/blob/main/.github/workflows/main.yml)
 
 A custom template based on the PROS (Purdue Robotics Operating System) meant to handle basic robot functions
 
@@ -10,7 +10,7 @@ A custom template based on the PROS (Purdue Robotics Operating System) meant to 
 
 ### Self-Installation
 
-1. Download the latest library of the template [here](https://github.com/Apollo-Robotics/Apollo-Template/releases).
+1. Download the latest library of the template [here](https://github.com/Apollo-Robotics/Apollo-Template-PROS/releases).
 2. Open / Move the downloaded .zip file to the main directory of your active PROS project.
 3. In the PROS CLI apply the template using the following commands:
 
@@ -37,7 +37,7 @@ prosv5 c apply Apollo-Template
 Chassis chassis();
 ```
 
-&emsp;&emsp;Read the documentation [here](https://github.com/Apollo-Robotics/Apollo-Template/wiki) to finish initializing or look at the example definition [here](https://github.com/Apollo-Robotics/Apollo-Template/blob/main/src/main.cpp)!
+&emsp;&emsp;Read the documentation [here](https://github.com/Apollo-Robotics/Apollo-Template-PROS/wiki) to finish initializing or look at the example definition [here](https://github.com/Apollo-Robotics/Apollo-Template-PROS/blob/main/src/main.cpp)!
 
 6. Finally, reference the class in any `.hpp` or `.h` file, such as `main.h`, like such:
 
