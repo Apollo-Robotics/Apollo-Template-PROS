@@ -1,5 +1,11 @@
 #pragma once
 
+#include "apollo/chassis/chassis.hpp"
+#include "apollo/chassis/tankDrive.hpp"
+
+#include "apollo/util/util.hpp"
+#include "apollo/util/math.hpp"
+
 #include "apollo/units/QAcceleration.hpp"
 #include "apollo/units/QAngle.hpp"
 #include "apollo/units/QAngularAcceleration.hpp"
